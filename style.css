@@ -1,6 +1,5 @@
 body {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   margin: 0px;
   padding: 0px;
@@ -10,8 +9,7 @@ body {
   flex-basis: 15rem;
   flex-grow: 1;
   position: relative;
-  outline: var(--border-thin) dashed;
-  padding-top: var(--s3);
+  padding-top: 1.25rem;
 }
 
 .content {
