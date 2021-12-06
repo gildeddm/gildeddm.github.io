@@ -19,6 +19,15 @@ body {
   padding-top: 1.25rem;
 }
 
+.navbar ul { list-style: none; }
+.navbar li { display: list-item; }
+.navbar a { 
+    display: inline-block;
+    line-height: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 .content {
  flex-basis: 0;
     flex-grow: 999;
