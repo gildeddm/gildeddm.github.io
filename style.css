@@ -1,0 +1,3 @@
+#bootstrap-override .container-md, .container-sm {
+padding-left: var(--bs-gutter-x, 7rem);
+}
