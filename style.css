@@ -12,18 +12,6 @@ body {
 main {
   overflow-y: auto;
 }
-ul {
-  list-style: none;
-}
-li {
-  color: #fff;
-}
-aside {
-  border-right: 1px solid #ededed;
-  background: #36c;
-  flex: 1 0 14%;
-  padding: 2rem;
-}
 .wrapper {
   display: flex;
   height: 100%;
@@ -32,17 +20,30 @@ aside {
   .wrapper {
     flex-direction: column;
   }
-  ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-}
 .wrapper_inner {
   width: 90%;
   margin: 2rem auto;
 }
+
+
+aside {
+  background: #212529;
+  flex: 1 0 14%;
+  padding: 2rem;
+}
+ul {
+  list-style: none;
+}
+li {
+  color: #fff;
+}
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+
 
 
 /* 
