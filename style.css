@@ -38,8 +38,10 @@ body {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    padding: 1.25rem;
-    background-color: #f6f8fa;
+    padding: 1.5rem;
+    background: #f6f8fa;
+    color: #999;
+    font-size: .85em;
+    overflow-x: hidden;
+    text-align: center;
 }
