@@ -19,10 +19,10 @@ li {
   color: #fff;
 }
 aside {
-  border-right:  1px solid #ededed;
+  border-right: 1px solid #ededed;
   background: #36c;
-  flex: 1 0 10%;
-  padding: 1rem;
+  flex: 1 0 14%;
+  padding: 2rem;
 }
 .wrapper {
   display: flex;
@@ -41,7 +41,7 @@ aside {
 }
 .wrapper_inner {
   width: 90%;
-  margin: 0px auto;
+  margin: 2rem auto;
 }
 
 
