@@ -44,35 +44,11 @@ li {
 }
  
 
-
-
-/* 
-
-.navbar {
-  flex-basis: 15rem;
-  flex-grow: 1;
-  position: relative;
-  padding: 1.25rem;
+.center {
+    align-items: center!important;
 }
 
-.navbar ul { list-style: none; }
-.navbar li { display: list-item; }
-.navbar a { 
-    display: inline-block;
-    line-height: 15px;
-    font-weight: 700;
-    text-decoration: none;
-}
-
-.content {
- flex-basis: 0;
-    flex-grow: 999;
-    min-width: 66%;
-    display: flex;
-    flex-direction: column;
-    padding: 1.25rem;
-}
-
+/*
 .footer {
     padding: 1.5rem;
     background: #f6f8fa;
