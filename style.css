@@ -36,7 +36,7 @@ a {
 aside {
   background: #212529;
   flex: 1 0 14%;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 
@@ -118,6 +118,12 @@ hr:not([size]) {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+}
+.nav-item { 
+    margin-bottom: 0.2rem;
+}
+.nav-item:first-child {
+  margin-top: 0.2rem  
 }
 .nav-pills .nav-link {
     background: 0 0;
