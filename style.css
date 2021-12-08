@@ -9,7 +9,7 @@ body {
   overflow: hidden;
   height: 100vh;
   color: #404040;
-  font: 400 1em/1.4 Open Sans,sans-serif;
+  font: 400 1em/1.4 'Open Sans', sans-serif;
 }
 main {
   overflow-y: auto;
@@ -88,7 +88,20 @@ hr:not([size]) {
 .mb-auto {
     margin-bottom: auto!important;
 }
-
+@media (min-width: 768px)
+.me-md-auto {
+    margin-right: auto!important;
+}
+@media (min-width: 768px)
+.mb-md-0 {
+    margin-bottom: 0!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
 .flex-column {
     flex-direction: column!important;
 }
@@ -107,7 +120,7 @@ hr:not([size]) {
 }
 .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     color: #0d6efd;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
