@@ -38,17 +38,7 @@ aside {
   flex: 1 0 14%;
   padding: 2rem;
 }
-ul {
-  list-style: none;
-}
-li, li a {
-  color: #fff;
-}
-  ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .flex-column {
     flex-direction: column!important;
@@ -145,7 +135,16 @@ hr:not([size]) {
     color: #fff;
     background-color: #0d6efd;
 }
-
+.nav li ( margin-bottom: 0.1rem; )
+.nav li, .nav li a {
+  color: #fff;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
 /*
 .footer {
     padding: 1.5rem;
