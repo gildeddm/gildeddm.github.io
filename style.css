@@ -49,6 +49,10 @@ li, li a {
     align-items: center;
     justify-content: space-between;
 }
+
+.flex-column {
+    flex-direction: column!important;
+}
  
 h1 {
     font-size: calc(1.275rem + .3vw)!important;
