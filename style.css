@@ -8,6 +8,8 @@
 body {
   overflow: hidden;
   height: 100vh;
+  color: #404040;
+  font: 400 1em/1.4 Open Sans,sans-serif;
 }
 main {
   overflow-y: auto;
@@ -48,6 +50,22 @@ li, li a {
     justify-content: space-between;
 }
  
+
+/*** footer ***/
+.footer-hold {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+}
+.footer {
+    padding: 1.5rem;
+    background: #404040;
+    color: #999;
+    font-size: .85em;
+    overflow-x: hidden;
+    text-align: center;
+}
 
 /*** misc ***/
 .center {
