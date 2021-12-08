@@ -81,6 +81,11 @@ h1 {
 
 /*** bootstrap ***/
 
+blue: #0d6efd;
+green: #5cb85c;
+yellow: #ec971f;
+red: #c9302c;
+
 hr {
     margin: 1rem 0;
     color: inherit;
