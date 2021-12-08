@@ -120,7 +120,7 @@ hr:not([size]) {
     list-style: none;
 }
 .nav-item { 
-    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
 }
 .nav-item:first-child {
   margin-top: 0.2rem  
