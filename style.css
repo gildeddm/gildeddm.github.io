@@ -30,7 +30,7 @@ main {
 
 a {
     color: #0d6efd;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 aside {
@@ -50,6 +50,13 @@ li, li a {
     justify-content: space-between;
 }
  
+h1 {
+    font-size: calc(1.275rem + .3vw)!important;
+}
+@media (min-width: 1200px)
+.h1 {
+    font-size: 1.5rem!important;
+}
 
 /*** footer ***/
 .footer-hold {
