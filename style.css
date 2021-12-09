@@ -129,6 +129,7 @@ hr:not([size]) {
     background: 0 0;
     border: 0;
     border-radius: 0.25rem;
+    color: #fff;
 }
 .nav-link {
     display: block;
