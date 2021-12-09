@@ -152,6 +152,16 @@ hr:not([size]) {
     justify-content: space-between;
     list-style: none;
 }
+
+/*** bootstrap tag filter ***/
+.row {
+  margin: 30px 0;
+}
+.hidden {
+  display: none;
+}
+
+
 /*
 .footer {
     padding: 1.5rem;
