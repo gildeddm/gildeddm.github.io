@@ -43,3 +43,4 @@ $(document).ready(function() {
   //console.log("total panel: " + document.getElementsByClassName("panel").length );
 
 });
+
